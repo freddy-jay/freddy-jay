@@ -6,5 +6,5 @@ while caffeinated:
     fix_them()
     refill_coffee()
 else:
-    raise FunnyException("Out of coffee, out of luck!")
+    raise CoffeNotFoundError("Out of coffee, out of luck!")
 ```
